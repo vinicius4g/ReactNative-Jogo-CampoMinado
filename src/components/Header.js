@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, StyleSheet, Text, TouchableOpacity, Touchable } from 'react-native'
+import { View, StyleSheet, Text, TouchableOpacity } from 'react-native'
 import Flag from './Flag'
 
 export default props => {
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
         paddingTop: 5,
         marginLeft: 20,
     },
-    button :{
+    button: {
         backgroundColor: '#999',
         padding: 5,
     },
