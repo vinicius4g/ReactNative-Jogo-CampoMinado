@@ -4,21 +4,12 @@
 
 ## 💻 Projeto
 
-O campo minado é um jogo que onsiste em um tabuleiro.
+O campo minado é um jogo de tabuleiro que é dividido em células, com as minas distribuídas aleatoriamente.
 
 <br>
 
 ## 🎮 Como Jogar 
-
-À medida que se abrem as casas aparecem números nelas, estes números variam e indicam
-quantas bombas existem ao redor desta casa, caso não tenha nenhum número significa que não há
-bombas ao redor, quando uma casa desta é aberta pode-se abrir todas ao redor da mesma até
-encontrar alguma casa que possua alguma bomba ao redor, ou seja, uma casa que indique um
-número qualquer. Caso o jogador acerte uma casa com bomba o jogo termina. O jogador ganha
-quando abrir todas as casas do jogo que não possuam bomba.
-Caso encontre uma célula vazia, pode-se abrir todas ao redor, pois significa que não há bombas em sua vizinhança.
-Os números indicam o número de bombas ao seu redor, verifique quais células você possui certeza que contém uma bomba e marque-as com uma
-bandeira, facilitando então a abertura das outras células em que você possui dúvida.
+As regras do campo minado são muito simples. O tabuleiro é dividido em células, com as minas distribuídas aleatoriamente. Para vencer, você precisa abrir todas as células que não contêm minas. Clicar em uma célula que não tem uma mina revela um número. Este número é a quantidade de células vizinhas que contêm uma mina. Usando essas informações, você pode determinar células que são seguras e células que contêm minas. As células suspeitas de serem minas podem ser marcadas com uma bandeira
 
 
 ## 🔨 Techs
